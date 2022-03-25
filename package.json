@@ -11,6 +11,6 @@
   "dependencies": {
     "express": "^4.17.3",
     "kayn": "^0.10.2",
-    "twisted": "^1.46.5"
+    "twisted": "^1.46.6"
   }
 }

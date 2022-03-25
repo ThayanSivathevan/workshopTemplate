@@ -1,0 +1,74 @@
+.container {
+    position: relative;
+    height: 100vh;
+    overflow-y: hidden;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background-image: url('../../public/leagueBackground.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.section {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 4px; 
+}
+
+.header {
+    position: absolute;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: none;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.search {
+    display: flex;
+    height: 3rem;
+    width: 35rem;
+    border: 1px solid gray;
+    border-right: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;    
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+}
+
+.submit {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #5ca1e1;
+    border: 1px solid gray;
+    border-left: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    outline: none;
+    color: white
+}
+
+.submit:hover {
+    background-color: #378ddf;
+}
+
+.statsPage {
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 10rem;
+    background-color: white;
+    color: black;
+}
